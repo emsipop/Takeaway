@@ -79,7 +79,7 @@ int main()
 						order.add(choice);
 					}
 					catch (int ex) {
-						cout << "\nException: " << ex << " is out of bounds!\n";
+						cout << "\nException: " << ex << " is out of bounds!\nThat item is not in the menu.\n";
 					}
 				}
 			}
@@ -97,7 +97,7 @@ int main()
 						order.remove(stoi(parameters[1]));
 					}
 					catch (int ex) {
-						cout << "\nException: " << ex << " is out of bounds!\n";
+						cout << "\nException: " << ex << " is out of bounds!\nThat item is not in the order.\n";
 					}
 				}
 			}
