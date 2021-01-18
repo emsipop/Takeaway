@@ -60,7 +60,7 @@ std::string Menu::toString()
 
     // Let user sort by price
     std::string userCommand;
-    std::cout << "\nDo you want the menu sorted in order of price?\nType 'a' for ascending order, 'd' for descending order, or 'n' for no.\n";
+    std::cout << "\nDo you want the menu sorted in order of price?\nType 'a' for ascending order, 'd' for descending order, or press enter to continue.\n";
     std::getline(std::cin, userCommand);
 
     if (userCommand == "a") {
