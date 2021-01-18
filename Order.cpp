@@ -90,7 +90,7 @@ void Order::printReceipt(std::string orderString)
 	std::ofstream receiptFile;
 	receiptFile.open("receipt.txt");
 	receiptFile << orderString;
-	std::cout << "\nOrder complete!\nYour receipt can be found in 'receipt.txt'\n";
+	std::cout << "\nOrder complete!\nYour receipt can be found in 'receipt.txt'\n\n";
 }
 
 std::string Order::toString()

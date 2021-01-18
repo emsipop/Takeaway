@@ -1,5 +1,6 @@
 
 ===== Order Summary =====
+(1) Red wine: £4.00, 170 cal (175ml, 12.5% abv)
 -------------
-Total: £0.00
+Total: £4.00
 
