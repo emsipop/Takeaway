@@ -17,7 +17,7 @@ Appetiser::Appetiser(std::string name, float price, int calories, std::string sh
 
 std::string Appetiser::toString(int index)
 {
-    std::string appString = "(" + std::to_string(index + 1) + ") " + name + ": £" + convertValue(price) + ", " + std::to_string(calories) + " cal ";
+    std::string appString = "(" + std::to_string(index + 1) + ") " + name + ": $" + convertValue(price) + ", " + std::to_string(calories) + " cal ";
 
     if (shareable) {
         appString += "(shareable)";

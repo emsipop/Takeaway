@@ -34,10 +34,10 @@ std::string Beverage::toString(int index)
         std::string abvString = str_strm.str();
 
         // If the beverage is alcoholic the abv value is displayed in menu
-        bevString += "(" + std::to_string(index + 1) + ") " + name + ": £" + convertValue(price) + ", " + std::to_string(calories) + " cal (" + std::to_string(volume) + "ml, " + abvString + "% abv)";
+        bevString += "(" + std::to_string(index + 1) + ") " + name + ": $" + convertValue(price) + ", " + std::to_string(calories) + " cal (" + std::to_string(volume) + "ml, " + abvString + "% abv)";
     }
     else {
-        bevString += "(" + std::to_string(index + 1) + ") " + name + ": £" + convertValue(price) + ", " + std::to_string(calories) + " cal (" + std::to_string(volume) + "ml)";
+        bevString += "(" + std::to_string(index + 1) + ") " + name + ": $" + convertValue(price) + ", " + std::to_string(calories) + " cal (" + std::to_string(volume) + "ml)";
     }
 
     // Return value to be added to 'menu' string

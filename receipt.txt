@@ -1,6 +1,8 @@
 
 ===== Order Summary =====
-(1) Red wine: £4.00, 170 cal (175ml, 12.5% abv)
+(1) Buffalo wings: $3.99, 450 cal (2-4-1)
+(2) Burger: $9.99, 950 cal
+(3) Coke: $2.50, 140 cal (330ml)
 -------------
-Total: £4.00
+Total: $16.48
 

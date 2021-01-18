@@ -109,10 +109,10 @@ std::string Order::toString()
 	calculateTotal();
 
 	if (savings > 0) {
-		order += "2-4-1 discount applied! Savings: £" + convertValue(savings) + "\n";
+		order += "2-4-1 discount applied! Savings: $" + convertValue(savings) + "\n";
 	}
 
-	order += "Total: £" + convertValue(total) + "\n\n";
+	order += "Total: $" + convertValue(total) + "\n\n";
 
 	return order;
 }
