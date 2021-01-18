@@ -64,25 +64,15 @@ std::string Menu::toString()
     std::getline(std::cin, userCommand);
 
     if (userCommand == "a") {
-        std::sort(items.begin(), items.end(), [](Item* a, Item* b)->bool 
-            {
-                if (typeid(*a) == typeid(*b)) {
+        std::sort(items.begin(), items.end(), [](Item* a, Item* b)->bool {
+                if (typeid(*a) == typeid(*b))
                     return a->getPrice() < b->getPrice();
-                }
-                else {
-                    return false;
-                }
             });
     }
     else if (userCommand == "d") {
-        std::sort(items.begin(), items.end(), [](Item* a, Item* b)->bool
-            {
-                if (typeid(*a) == typeid(*b)) {
+        std::sort(items.begin(), items.end(), [](Item* a, Item* b)->bool {
+                if (typeid(*a) == typeid(*b))
                     return a->getPrice() > b->getPrice();
-                }
-                else {
-                    return false;
-                }
             });
     }
 
