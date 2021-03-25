@@ -1,18 +1,3 @@
-/* ------------------------------------------------------
-CMP2801M: Advanced Programming
-Driver program for "Takeaway" assignment
-Autumn 2020
-
-Written by James Brown
-
-This file is a representative test file.
-During marking, we will use the exact same notation
-as provided in the brief, so make sure you follow that guideline.
-Also make sure that you don't modify the code provided here,
-but instead add what you need to complete the tasks.
-
-Good luck!
------------------------------------------------------- */
 #define _CRT_SECURE_NO_WARNINGS
 
 #include "Menu.h"
